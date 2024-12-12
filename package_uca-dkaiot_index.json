@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "name": "uca-aiot",
+      "maintainer": "LEAT-EDGE",
+      "websiteURL": "https://github.com/LEAT-EDGE/UCA_AIoT_Core/",
+      "email": "penovac@unice.fr",
+      "help": {
+        "online": "https://leat-edge.github.io/"
+      },
+      "platforms": [
+		{
+          "name": "UCA-DKAIoT",
+          "architecture": "stm32l4",
+          "version": "1.0.1-e1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/LEAT-EDGE/UCA_AIoT_Core/"
+          },
+          "url": "https://github.com/LEAT-EDGE/UCA_AIoT_Core/archive/refs/tags/v1.0.1-e1.tar.gz",
+          "archiveFileName": "UCA_AIoT_Core-1.0.1-e1.tar.gz",
+          "checksum": "MD5:2C7DB0A7ABF203C31706428AE2EA3710",
+          "size": "18139033",
+          "boards": [
+            {"name": "DKAIoT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
+}
