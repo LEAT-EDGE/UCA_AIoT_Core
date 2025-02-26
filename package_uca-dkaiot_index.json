@@ -9,7 +9,30 @@
         "online": "https://leat-edge.github.io/"
       },
       "platforms": [
-		{
+        {
+          "name": "UCA-DKAIoT",
+          "architecture": "stm32l4",
+          "version": "1.0.1-e2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/LEAT-EDGE/UCA_AIoT_Core/"
+          },
+          "url": "https://github.com/LEAT-EDGE/UCA_AIoT_Core/archive/refs/tags/v1.0.1-e2.tar.gz",
+          "archiveFileName": "UCA_AIoT_Core-1.0.1-e2.tar.gz",
+          "checksum": "MD5:BBC726B79CA3172A6E50064C58455591",
+          "size": "18139241",
+          "boards": [
+            {"name": "DKAIoT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            }
+          ]
+        },
+        {
           "name": "UCA-DKAIoT",
           "architecture": "stm32l4",
           "version": "1.0.1-e1",
