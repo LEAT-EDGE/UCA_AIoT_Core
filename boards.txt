@@ -32,7 +32,7 @@ DKAIoT.build.did=0xffff
 DKAIoT.build.usb_manufacturer="RFThings"
 DKAIoT.build.usb_product="DKAIoT"
 DKAIoT.build.extra_flags=-DSTM32L476xx -D__FPU_PRESENT=1 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mabi=aapcs -mslow-flash-data -fsingle-precision-constant {build.usb_flags} {build.dosfs_flags} {build.region_flags} {build.version_flags}
-DKAIoT.build.ldscript=linker_scripts/STM32L476RE_FLASH.ld
+DKAIoT.build.ldscript=linker_scripts/STM32L476RG_FLASH.ld
 DKAIoT.build.openocdscript=openocd_scripts/stm32l476re_dragonfly.cfg
 DKAIoT.build.variant=DKAIoT
 DKAIoT.build.variant_system_libs="-L{runtime.platform.path}/system/STM32L4xx/Lib" "-L{runtime.platform.path}/system/CMSIS/Lib" -lstm32l476 -larm_cortexM4lf_math
