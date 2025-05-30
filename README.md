@@ -2,6 +2,12 @@
 
 This is the reposistory of Arduino Core for UCA-AIoT board. Refer to this [FabienFerrero/UCA_AIOT](https://github.com/FabienFerrero/UCA_AIOT/) reposistory for the installation instructions & examples.
 
+## Board Manager URL
+
+```
+https://leat-edge.github.io/UCA_AIoT_Core/package_uca-dkaiot_index.json
+```
+
 ## Supported boards
 
 ### [DKAIoT](https://github.com/FabienFerrero/UCA_AIOT)
